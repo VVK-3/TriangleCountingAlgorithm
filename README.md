@@ -1,0 +1,2 @@
+# TriangleCountingAlgorithm
+OMP Version
