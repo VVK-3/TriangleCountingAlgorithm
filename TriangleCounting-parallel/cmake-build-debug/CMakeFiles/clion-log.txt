@@ -1,0 +1,28 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/local/Cellar/gcc/9.2.0/bin/gcc-9 -DCMAKE_CXX_COMPILER=/usr/local/Cellar/gcc/9.2.0/bin/g++-9 -G "CodeBlocks - Unix Makefiles" /Users/kevvinhu/Desktop/Report/Competition/TriangleCounting-parallel
+-- The C compiler identification is unknown
+-- The CXX compiler identification is unknown
+-- Check for working C compiler: /usr/local/Cellar/gcc/9.2.0/bin/gcc-9
+-- Check for working C compiler: /usr/local/Cellar/gcc/9.2.0/bin/gcc-9 -- broken
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeTestCCompiler.cmake:52 (message):
+  The C compiler
+
+    "/usr/local/Cellar/gcc/9.2.0/bin/gcc-9"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /Users/kevvinhu/Desktop/Report/Competition/TriangleCounting-parallel/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command:"/usr/bin/make" "cmTC_b593a/fast"
+    xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/kevvinhu/Desktop/Report/Competition/TriangleCounting-parallel/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/kevvinhu/Desktop/Report/Competition/TriangleCounting-parallel/cmake-build-debug/CMakeFiles/CMakeError.log".
